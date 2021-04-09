@@ -1,0 +1,42 @@
+.panel {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 5px;
+}
+
+.primary {
+  background-color: aqua;
+  margin-left: 20px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.description {
+  margin-right: 10px;
+}
+
+.input {
+  width: 50px;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 20px;
+}
