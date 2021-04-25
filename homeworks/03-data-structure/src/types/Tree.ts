@@ -14,7 +14,7 @@ export enum TraverseType {
 export interface IBinaryTree<T> {
   setTree: (tree: ITreeNode<T>) => void;
   traverse: (traverseType: TraverseType) => T[];
-  // getColumn
+  getColumn: (column: number) => T[];
 }
 
 export interface IBinarySearchTree extends IBinaryTree<number> {
