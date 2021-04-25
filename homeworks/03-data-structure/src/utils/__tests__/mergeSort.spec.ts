@@ -16,7 +16,7 @@ describe('MergeSort', () => {
     expect(mergeSort([5, 4, 3, 2, 1], compareNumbersFunc)).toEqual([1, 2, 3, 4, 5]);
   });
 
-  it('should sort array of string by length descending (mergeSort is generic)', function () {
+  it('should sort array of string by length descending (mergeSort is generic)', () => {
     expect(mergeSort(['test', 'test2', 't', 'test200'], compareStringsByLengthDesc)).toEqual(['test200', 'test2', 'test', 't']);
   });
 });
